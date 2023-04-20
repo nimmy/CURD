@@ -1,0 +1,1 @@
+const DB_CONNECT = 'mongodb+srv://nimeshmehra:nodeexpress@nodeexpress.n5p8xb7.mongodb.net/?retryWrites=true&w=majority';

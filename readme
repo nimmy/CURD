@@ -1,0 +1,49 @@
+
+
+mongoDB User id pass
+
+nimeshmehra
+nodeexpress
+
+IP 103.15.254.184/32
+
+
+mongo DB isntalltion
+
+# If you still have the old mongodb installed from homebrew-core
+brew services stop mongodb
+brew uninstall homebrew/core/mongodb
+
+# Use the migrated distribution from custom tap
+brew tap mongodb/brew
+brew install mongodb-community
+brew services start mongodb-community
+
+if you see below error that means your path is not set
+
+"Shutting down","attr":{"exitCode":100}
+
+whoami
+
+sudo 
+
+sudo chown nimmehra /usr/local/mongodb/data/db
+
+mkdir -p /home/demo/sub2/Test
+
+http://www.codebind.com/mongodb/install-mongodb-mac-os-x/
+
+cd for home dir
+see all files
+ls -l
+hidden giles
+ls -al
+
+to create bash profile if not persent
+touch .bash_profile
+
+if file is exist then
+open .bash_profile
+
+export MONGO_PATH = /usr/local/mongodb
+export PATH = $PATH:$MONGA_PATH/bin
